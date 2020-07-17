@@ -1,0 +1,24 @@
+Hello 8051 dudes,
+
+ Welcome to C51Snakes - The Nokia inspired Sankes game implemented on 8051 platform.
+The game is built on AT89S51 MCU operating at 27MHz crystal frequency. The game uses
+a 16 * 8 LED dot matrix display and five way keys for user interface. A dedicated
+delay settings key provides one touch access to the delay settings mode where the
+speed of the Snake can be adjusted. Highlights of the game are,
+
+    * As in the original game, the Snake grows in size as it snatches the eggs
+    * Eggs appear periodically on the screen at random pixels and will disappear
+      if not snatched within a certain period of time
+    * The snake sees no boundaries at the edges of the display, will propagate
+      in to any edge and enter from the opposite edge
+    * The Snake can be accelerated / decelerated on the fly
+    * There is also a separate delay settings mode to adjust the Snake's speed
+    * The game ends when the Snake collides with itself
+    * The total eggs snatched is then displayed as the game score
+    * The gaming console will hibernate if no user event occurs in 25secs! The
+      game can be resumed by pressing external interrupt / master reset keys!
+
+ So, hurry! Build the hardware, burn the code and start gaming...
+
+      Sumit Chouhan.
+(sumit.chouhan19@gmail.com)
